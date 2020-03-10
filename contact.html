@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang = "eng">
+<head>
+	<metacharset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width,initial-scale = 1.0">
+	<title>Ayda</title>
+		<center>
+		<i class="fa fa-home" style="font-size: 24px"></i> &nbsp;&nbsp;   
+		<a href = "index.html">Home</a> &nbsp;&nbsp; |&nbsp;&nbsp;
+		<a href = "contact.html">Contact</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+		<a href = "gallery.html">Gallery</a>
+	</center>
+	<hr>
+		
+	<div>
+		<table id="tb1" style="width: 45%;float: left">
+			<tr>
+				<td><h1> Ayda Sultan</h1>
+		<h3>Student@AAiT</h3>
+		<p>A student interested in psychology and languages currently doing my BA degree in computer science.</p>
+		<p>I was a tad bit curious about computers which landed me to a world of software engineers. </p>
+		<p>If you want to know more about me, feel free to follow me on Quora where I document my life experiences.</p> 
+		<p>You can get the link to the site once you contact me.</p></td>
+	</tr>
+	</table>
+</div>
+
+</head>
+<body>
+	<div>
+	<table id="tb2" style="width: 55%; float: left">
+		<tr>
+			<td>
+	<h3>Contact me</h3>
+	<hr>
+</td>
+</tr>
+	<form method ="POST" action = "" enctype = "utf-8">
+		<tr>
+			<td>
+				<label for="fName">First Name</label>&nbsp;&nbsp;
+		<input type = "text" id = "fName" name = "fName" required size="20"
+           pattern="[a-z]" title="4 to 8 letters">
+           <span class="validity"></span><br><br>
+
+			</td>
+		</tr>
+		<tr>
+		<td>
+			<label for="sName">Surname Name</label>&nbsp;&nbsp;
+			<input type = "text" id = "sName" name = "sName"required size="20"
+           pattern="[a-z]" title="4 to 8 letters" >
+           <span class="validity"></span> <br><br>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="pass">Password</label>&nbsp;&nbsp;
+			<input type = "Password" id = "pass" name = "Password" minlength="8" required >
+           <span class="validity"></span> <br><br>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<label for="phone">Phone number</label>&nbsp;&nbsp;
+			<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>-
+   <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+   <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+ </label> <br><br>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<label for = "e-mail">E-mail</label>&nbsp;&nbsp;
+			<input type="e-mail" id = "e-mail" name = "e-mail">
+		</td>
+	</tr>
+			
+			<tr>
+			<td>
+				<br>
+			Country
+			<select name = "country" id= "">&nbsp;&nbsp;
+				<option value="As">Asia</option>
+				<option value="Af">Africa</option>
+				<option value="Am">America</option>
+			</select>
+		</td>
+	</tr>
+			<tr>
+			<td>
+				<br>
+			Leave a suggestion!<br><br>
+			<textarea name="comment"></textarea>
+			<br><br>
+			<input type = "Submit" value = "Submit">
+		</td>
+	</tr>
+	</form>
+</table>
+</div>
+	<p><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></p>
+	
+	<hr>
+	<center><p>Developed by Ayda Sultan &copy;2020</p></center>
+		
+		</body>
+</html>
